@@ -1,0 +1,39 @@
+/*
+Copyright (c) 2015 Murach)
+*/
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 10px;
+  white-space: nowrap;
+}
+
+thead, 
+tfoot {
+  background-color: aqua;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+th, 
+td {
+  padding: .2em .7em;
+  text-align: right;
+  border: 1px solid black;
+}
+
+th:first-child, 
+td:first-child {
+  text-align: left;
+}
+
+th:nth-child(2), 
+td:nth-child(2) {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: silver;
+}
+
+

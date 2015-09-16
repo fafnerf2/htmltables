@@ -1,0 +1,53 @@
+/*
+Copyright (c) 2015 Murach)
+*/
+figure, 
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  border: 1px solid black;
+  padding: 15px;
+  width: 450px;
+}
+
+figcaption {
+  display: block;
+  font-weight: bold;
+  font-size: 120%;
+  padding-bottom: .25em;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+thead, 
+tfoot {
+  background-color: aqua;
+  border: 1px solid black;
+  font-weight: bold; 
+}
+
+td, 
+th {
+  border: 1px solid black;
+  padding: .2em .7em;
+  text-align: right;
+}
+
+tr th:first-of-type,
+tr td:first-of-type {
+  text-align: left;
+}
+
+tr td:nth-child(2) {
+  text-align: center;
+}
+
+

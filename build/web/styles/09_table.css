@@ -1,0 +1,52 @@
+/*
+Copyright (c) 2015 Murach)
+*/
+body {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-top: 1px solid black;
+}
+
+#outer {
+  border: 1px solid black;
+}
+
+#outer th {
+  background-color: #b0e0e6;
+}
+
+#inner {
+  border: 1px solid black;
+
+}
+
+#inner th {
+  background-color: white;
+}
+
+td, 
+th {
+  padding: 3px 7px;
+}
+
+td.padding,
+th.padding {
+  padding: 3px 15px 3px 7px;
+}
+
+th.left {
+  text-align: left;
+}
+
+th.right, 
+td.right {
+  text-align: right;
+}
+
+
